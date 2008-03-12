@@ -11,8 +11,6 @@
 - init
 {
 	if (self = [super init]) {
-		// Set up the AppleScript
-		
 		[[NSDistributedNotificationCenter defaultCenter]
 		    addObserver:self
 		       selector:@selector(p_iTunesPlayStatusChanged:)
