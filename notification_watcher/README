@@ -1,0 +1,58 @@
+Distributed notification watcher
+================================
+
+A tiny program that listens to Mac OS X distributed notifications and dumps them to standard output.
+
+
+Compiling and installing
+------------------------
+
+You need the Developer Tools installed on your Mac.
+
+Then just type `make`.
+
+Copy the resulting notification_watcher to your favorite `bin/` directory.
+
+
+Usage
+-----
+
+Pass the name of the notification you are interested on.
+
+    notification_watcher NAME
+
+For example, to see iTunes notifications, try:
+
+    notification_watcher com.apple.iTunes.playerInfo
+
+and then start/stop iTunes music.
+
+
+Output layout
+-------------
+
+The output layout is written in such a way to make parsing easy.
+
+The format is:
+
+ * a string of digits, represents the size of the payload;
+ * a newline character (\n);
+ * the notification payload;
+ * a newline character (\n);
+
+
+License
+-------
+
+This package is licensed under the terms of the Artistic License, version 2.0.
+
+See http://www.opensource.org/licenses/artistic-license-2.0.php
+
+
+Future
+------
+
+Currently, the output format is a old-style NextStep plist.
+
+I'm planning on adding support for NSPropertyListSerialization and allow XML output.
+
