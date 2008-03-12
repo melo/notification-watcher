@@ -1,0 +1,13 @@
+Just the facts
+==============
+
+to get up and running quickly:
+
+		curl -o notification_watcher.tar.gz -L http://github.com/melo/notification-watcher/tarball/master
+		tar zxf notification_watcher.tar.gz
+		cd melo-notification-watcher-master/notification_watcher/
+		make
+		./notification_watcher
+
+That's it!
+
