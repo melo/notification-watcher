@@ -4,6 +4,8 @@ Distributed notification watcher
 A tiny program that listens to Mac OS X distributed notifications and
 dumps them to standard output.
 
+For now, the code is hard-coded to display iTunes notifications.
+
 
 Compiling and installing
 ------------------------
