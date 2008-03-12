@@ -41,6 +41,14 @@ The format is:
  * a newline character (\n);
 
 
+Thanks
+------
+
+To João Pavão for all the ObjC tips. Also, I used his LPCurrentITunesTrackMonitor as source of inspiration.
+
+See http://trac.softwarelivre.sapo.pt/sapo_msg_mac/browser/trunk/lilypad/Sources/LPCurrentITunesTrackMonitor.m
+
+
 License
 -------
 
