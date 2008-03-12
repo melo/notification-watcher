@@ -1,7 +1,8 @@
 Distributed notification watcher
 ================================
 
-A tiny program that listens to Mac OS X distributed notifications and dumps them to standard output.
+A tiny program that listens to Mac OS X distributed notifications and
+dumps them to standard output.
 
 
 Compiling and installing
@@ -11,7 +12,8 @@ You need the Developer Tools installed on your Mac.
 
 Then just type `make`.
 
-Copy the resulting notification_watcher to your favorite `bin/` directory.
+Copy the resulting notification_watcher to your favorite `bin/`
+directory.
 
 
 Usage
@@ -44,7 +46,8 @@ The format is:
 Thanks
 ------
 
-To João Pavão for all the ObjC tips. Also, I used his LPCurrentITunesTrackMonitor as source of inspiration.
+To João Pavão for all the ObjC tips. Also, I used his
+LPCurrentITunesTrackMonitor as source of inspiration.
 
 See http://trac.softwarelivre.sapo.pt/sapo_msg_mac/browser/trunk/lilypad/Sources/LPCurrentITunesTrackMonitor.m
 
@@ -52,7 +55,8 @@ See http://trac.softwarelivre.sapo.pt/sapo_msg_mac/browser/trunk/lilypad/Sources
 License
 -------
 
-This package is licensed under the terms of the Artistic License, version 2.0.
+This package is licensed under the terms of the Artistic License,
+version 2.0.
 
 See http://www.opensource.org/licenses/artistic-license-2.0.php
 
@@ -62,5 +66,5 @@ Future
 
 Currently, the output format is a old-style NextStep plist.
 
-I'm planning on adding support for NSPropertyListSerialization and allow XML output.
-
+I'm planning on adding support for NSPropertyListSerialization and allow
+XML output.
