@@ -1,7 +1,7 @@
 OBJS=src/main.o src/MyListener.o
 CC=gcc
-CFLAGS=-isysroot /Developer/SDKs/MacOSX10.4u.sdk -arch ppc -arch i386
-LDFLAGS=-Wl,-syslibroot,/Developer/SDKs/MacOSX10.4u.sdk -arch ppc -arch i386
+CFLAGS=-isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk
+LDFLAGS=-Wl,-syslibroot,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk
 
 all: notification_watcher
 
